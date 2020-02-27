@@ -1,0 +1,34 @@
+html,body{
+    padding: 0px;
+    margin: 0px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    display: flex; /*Hacer que los elementos en el nav se dispersen a lo largo del nav y no se vayan escribiendo abajo*/
+    background-color:#7ACC2D;
+    padding: 10px;
+    color: white;
+    justify-content: space-between  ; /* Generar un espacion entro los div (contenedores) */
+    align-items: center; /*Alinear el texto y o imagenes dentro del nav*/
+    padding-left: 40px;
+}
+
+nav ul{
+    display: flex; /*Hacer que la lista no se escriba hacia abajo si no a lo largo a traves del nav*/
+}
+
+nav li{
+    padding-right: 40px; /*Separacion interior de lado derecho a los elementos*/
+    list-style: none; /*Quitar el estilo de las listas, es decir : +Lista ---> Lista*/
+}
+
+nav li a{
+    color: black;
+    text-decoration: none; /*Quitar el subrayado que tienen los hipervinculos y de igual forma el color azul*/
+}
+
+nav li a:hover{ /*hover: es igual a las caracteristicas que va a adoptar ese atributo o en este caso ese hipervinculo cuando pases el mouse sobre eñ*/
+    color: white;
+}

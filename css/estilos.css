@@ -114,7 +114,7 @@ nav li a:hover{ /*hover: es igual a las caracteristicas que va a adoptar ese atr
 }
 
 .product2{
-    padding: 85px;
+    padding: 3%;
 }
 
 .contenido{
@@ -135,7 +135,6 @@ h2{
 
 .product3{
     box-shadow: 0 0 2px black;
-    padding: 10px;
     margin: 15px;
 }
 

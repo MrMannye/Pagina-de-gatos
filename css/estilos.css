@@ -13,8 +13,9 @@ html,body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.brand_image img{ /* Entro el el div brand_image y me coloco en las imagenes de ese div para solo modificar la anchura y la altura de la o las imagenes que se encuentren en ese div*/
-    width: 90px; /*Anchura*/
+/*
+.brand_image img{ -- Entro el el div brand_image y me coloco en las imagenes de ese div para solo modificar la anchura y la altura de la o las imagenes que se encuentren en ese div
+    width: 90px; Anchura
     height: 50px;
 }
 

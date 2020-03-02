@@ -94,11 +94,12 @@ nav li a:hover{ /*hover: es igual a las caracteristicas que va a adoptar ese atr
     background-color: var(--green-color);
     padding: 10px;
     text-align: center;
-    width: 100%; /*A LA SECCION DEL BOTON LE DECIMOS QUE OCUPE TODO EL ESPACIO DE LA TARJETA*/
+     width: 100%;/*A LA SECCION DEL BOTON LE DECIMOS QUE OCUPE TODO EL ESPACIO DE LA TARJETA*/
     font-size: 14px;
     color: azure;
     font-family: Arial, Helvetica, sans-serif;
     cursor: pointer;
+    box-sizing: border-box;
 }
 
 .main_buton:hover{
@@ -147,6 +148,43 @@ h2{
 #Menciones img{
     width: 100%;
 }
+
+
+/*---------------Venta*/
+
+.modulo_imagen{
+   display: block;
+    margin: auto;
+}
+
+.modulo_pago{
+    background-color: var(--white-color);
+    box-shadow: 0 0 2px black;
+    padding: 10px;
+}
+
+label{
+    font-size: 12px;
+    padding: 10px;
+}
+input{
+    padding: 4px;
+    width: 90%;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+.modulo_pago .main_buton{
+    margin-top: 5px;
+    box-sizing: border-box;
+    width: 90%;
+}
+
+/*---------------Venta*/
+
+
+
+
 
 footer{
     color: aliceblue;

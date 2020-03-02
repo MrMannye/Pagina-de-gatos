@@ -6,7 +6,7 @@
     <title>Succes</title>
     <link rel="stylesheet" href="css/animacion.css">
     <link rel="stylesheet" href="css/estilos.css">
-    <link rel="stylesheet" href="css/estilos4.css">
+    <link rel="stylesheet" href="css/grid.css">
 </head>
 <body>
 
@@ -28,27 +28,60 @@
             </ul>
         </div>
     </nav>
-
-    <div class="contatiner fadeDown">
-        <div class="producto">
-            <div class="info">
-                <div class="img"><img src="imagenes/box_brand.png" alt="" srcset=""></div>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="modulo_pago">
+                <div class="modulo_imagen"><img src="imagenes/b1.png" alt="" srcset=""></div>
                 <h1>Producto 1</h1>
-                <p>Este es el producto por el cual usted va a rezalizar la compra porfavor verique y llene sus datos</p>
+                <p>Puto el que lo lea por que mis huevos lo dices carambolassssss</p>
+                </div>
             </div>
+                <div class="col-8">
+                    <div class="modulo_pago">
+                        <form action="compra.html">
+                            <label for="name">Nombre</label>
+                            <br>
+                            <br>
+                            <input type="text" placeholder="" name="name">
+                            <br>
+                            <br>
+                            <label for="email">Email</label>
+                            <br>
+                            <br>
+                            <input type="text" name="email">
+                            <br>
+                            <br>
+                            <label for="cel">Celphone</label>
+                            <br>
+                            <br>
+                            <input type="text" name="cel">
+                            <br>
+                            <br>
+                            <label for="password">Password</label>
+                            <br>
+                            <br>
+                            <input type="text" name="password">
+                            <br>
+                            <input type="submit" class="main_buton" value="Confirmar Pago">
+                            <br>
+                        </form>
+                    </div>
+                </div>
         </div>
-        <div class="producto">
-            <div class="info">
-                <h3>Nombre:</h3>
-                <input type="" size="30" name="caja1">
-                <h3>Mail:</h3>
-                <input type="text" size="30" name="caja2">
-                <h3>Telefono:</h3>
-                <input type="text" size="30" name="caja3">
-                <button href = "compra.html" class="main_buton">Comprar</button>
-            </div>
+    </div> 
+    <br>
+    <br>
+    <br>
+    <footer class="fadeDown">
+        <div class="footer">
+            Terminos y condiciones
         </div>
-    </div>
+    </footer>
+
     
 </body>
 </html>
